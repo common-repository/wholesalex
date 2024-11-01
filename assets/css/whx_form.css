@@ -1,0 +1,1111 @@
+/* =====================================
+    wsx Flex Style ( justify, alignment)
+=========================================*/
+/* =====================================
+    WSX Font Style size, weight, height
+=====================================*/
+/* ===================================================  
+    wsx Positioning Position, Top, Left, Right,bottom 
+===================================================*/
+/* =============== Common Class =============== */
+.wsx-input-typography, .wsx-form-field.wsx-form-checkbox .wsx-field-content label, .wsx-form-field.wsx-field-radio .wsx-field-content label, .wsx_variation_1 .wsx-reg-fields .wsx-form-field > input,
+.wsx_variation_1 .wsx-reg-fields .wsx-form-field > textarea,
+.wsx_variation_1 .wsx-reg-fields .wsx-form-field > select,
+.wsx_variation_2 .wsx-reg-fields .wsx-form-field > input,
+.wsx_variation_2 .wsx-reg-fields .wsx-form-field > textarea,
+.wsx_variation_2 .wsx-reg-fields .wsx-form-field > select,
+.wsx_variation_3 .wsx-reg-fields .wsx-form-field > input,
+.wsx_variation_3 .wsx-reg-fields .wsx-form-field > textarea,
+.wsx_variation_3 .wsx-reg-fields .wsx-form-field > select,
+.wsx_variation_6 .wsx-reg-fields .wsx-form-field > input,
+.wsx_variation_6 .wsx-reg-fields .wsx-form-field > textarea,
+.wsx_variation_6 .wsx-reg-fields .wsx-form-field > select,
+.wsx_variation_7 .wsx-reg-fields .wsx-form-field > input,
+.wsx_variation_7 .wsx-reg-fields .wsx-form-field > textarea,
+.wsx_variation_7 .wsx-reg-fields .wsx-form-field > select, .wsx_variation_2 .wsx-reg-fields .wsx-outline-focus > input,
+.wsx_variation_2 .wsx-reg-fields .wsx-outline-focus > textarea,
+.wsx_variation_2 .wsx-reg-fields .wsx-outline-focus > select, .wsx_variation_4 .wsx-reg-fields .wsx-form-field.wsx-outline-focus, .wsx_variation_5 .wsx-reg-fields .wsx-form-field.wsx-outline-focus, .wsx_variation_4 .wsx-form-field .wsx-form-field > input,
+.wsx_variation_4 .wsx-form-field .wsx-form-field > select,
+.wsx_variation_4 .wsx-form-field .wsx-form-field > textarea, .wsx_variation_5 .wsx-form-field .wsx-form-field > input,
+.wsx_variation_5 .wsx-form-field .wsx-form-field > select,
+.wsx_variation_5 .wsx-form-field .wsx-form-field > textarea, .wsx_variation_7 .wsx-outline-focus > input,
+.wsx_variation_7 .wsx-outline-focus > textarea,
+.wsx_variation_7 .wsx-outline-focus > select, .wsx_variation_8 .wsx-form-field > input,
+.wsx_variation_8 .wsx-form-field > textarea,
+.wsx_variation_8 .wsx-form-field > select, .wsx_variation_8 .wsx-form-field.wsx-outline-focus {
+  font-size: var(--wsx-input-font-size) !important;
+  font-weight: var(--wsx-input-weight);
+  font-style: normal;
+  line-height: 1.6em !important;
+  text-transform: var(--wsx-input-case-transform) !important; }
+
+.wsx-formBuilder-input-width, .wholesalex-form-wrapper .wholesalex-login-form > *, .wholesalex-form-wrapper .wholesalex-registration-form > *, .wsx_variation_1 .wsx-outline-focus {
+  width: 100%;
+  max-width: var(--wsx-input-width); }
+
+.wsx-formBuilder-input-layout, .wsx-form-file .wsx-field-content .wsx-file-label, .wsx_variation_1 .wsx-reg-fields .wsx-form-field > input,
+.wsx_variation_1 .wsx-reg-fields .wsx-form-field > textarea,
+.wsx_variation_1 .wsx-reg-fields .wsx-form-field > select,
+.wsx_variation_2 .wsx-reg-fields .wsx-form-field > input,
+.wsx_variation_2 .wsx-reg-fields .wsx-form-field > textarea,
+.wsx_variation_2 .wsx-reg-fields .wsx-form-field > select,
+.wsx_variation_3 .wsx-reg-fields .wsx-form-field > input,
+.wsx_variation_3 .wsx-reg-fields .wsx-form-field > textarea,
+.wsx_variation_3 .wsx-reg-fields .wsx-form-field > select,
+.wsx_variation_6 .wsx-reg-fields .wsx-form-field > input,
+.wsx_variation_6 .wsx-reg-fields .wsx-form-field > textarea,
+.wsx_variation_6 .wsx-reg-fields .wsx-form-field > select,
+.wsx_variation_7 .wsx-reg-fields .wsx-form-field > input,
+.wsx_variation_7 .wsx-reg-fields .wsx-form-field > textarea,
+.wsx_variation_7 .wsx-reg-fields .wsx-form-field > select, .wsx_variation_2 .wsx-reg-fields .wsx-outline-focus > input,
+.wsx_variation_2 .wsx-reg-fields .wsx-outline-focus > textarea,
+.wsx_variation_2 .wsx-reg-fields .wsx-outline-focus > select, .wsx_variation_4 .wsx-field-content, .wsx_variation_5 .wsx-field-content, .wsx_variation_8 .wsx-field-content, .wsx_variation_4 .wsx-reg-fields .wsx-form-field.wsx-outline-focus, .wsx_variation_5 .wsx-reg-fields .wsx-form-field.wsx-outline-focus, .wsx_variation_7 .wsx-outline-focus > input,
+.wsx_variation_7 .wsx-outline-focus > textarea,
+.wsx_variation_7 .wsx-outline-focus > select, .wsx_variation_8 .wsx-form-field.wsx-outline-focus {
+  border-radius: var(--wsx-input-border-radius);
+  padding: var(--wsx-input-padding);
+  border: var(--wsx-input-border-width) solid var(--wsx-input-border-color); }
+
+/* =============== Common Class =============== */
+/* ======= Container Style  ======= */
+.wholesalex-form, .wsx-form-wrapper_frontend {
+  width: 100% !important;
+  max-width: var(--wsx-form-container-width) !important; }
+  .wholesalex-form .wholesalex_circular_loading__wrapper, .wsx-form-wrapper_frontend .wholesalex_circular_loading__wrapper {
+    display: none; }
+
+/* ===============================  Variable Styling End ================================*/
+/* ===============================  Input Variation Common Style Start ================================*/
+.wholesalex-form-wrapper {
+  height: auto;
+  width: 100%;
+  box-sizing: border-box;
+  border: var(--wsx-form-container-border-width) solid var(--wsx-form-container-border-color);
+  border-radius: var(--wsx-form-container-border-radius);
+  background-color: var(--wsx-form-container-bg);
+  padding: var(--wsx-form-container-padding);
+  display: flex !important;
+  justify-content: center;
+  align-items: stretch; }
+  .wholesalex-form-wrapper input, .wholesalex-form-wrapper select, .wholesalex-form-wrapper textarea {
+    min-height: auto !important;
+    max-width: 100%;
+    box-shadow: none !important;
+    margin: 0px !important; }
+  .wholesalex-form-wrapper input, .wholesalex-form-wrapper select {
+    height: auto !important; }
+  .wholesalex-form-wrapper .wsx-form-label {
+    margin-bottom: 0px; }
+    .wholesalex-form-wrapper .wsx-form-label > span {
+      color: #FF2727 !important;
+      margin-left: 4px; }
+  .wholesalex-form-wrapper .wsx-clone-label span {
+    visibility: hidden; }
+  .wholesalex-form-wrapper .wsx-reg-form-heading-text {
+    color: var(--wsx-reg-title-color);
+    font-size: var(--wsx-reg-title-font-size) !important;
+    font-weight: var(--wsx-reg-title-font-size);
+    font-style: normal;
+    line-height: 1.5em !important;
+    text-transform: var(--wsx-reg-title-case-transform) !important; }
+  .wholesalex-form-wrapper .wsx-login-form-title-text {
+    color: var(--wsx-login-title-color);
+    font-size: var(--wsx-login-title-font-size) !important;
+    font-weight: var(--wsx-login-title-font-weight);
+    font-style: normal;
+    line-height: 1.5em !important;
+    text-transform: var(--wsx-login-title-case-transform) !important; }
+  .wholesalex-form-wrapper .wholesalex-registration-form-subtitle-text {
+    color: var(--wsx-reg-description-color);
+    font-size: var(--wsx-reg-description-font-size) !important;
+    font-weight: var(--wsx-reg-description-font-weight);
+    font-style: normal;
+    line-height: 1.5em !important;
+    text-transform: var(--wsx-reg-description-case-transform) !important; }
+  .wholesalex-form-wrapper .wholesalex-login-form-subtitle-text {
+    color: var(--wsx-login-description-color);
+    font-size: var(--wsx-login-description-font-size) !important;
+    font-weight: var(--wsx-login-description-font-weight);
+    font-style: normal;
+    line-height: 1.5 !important;
+    text-transform: var(--wsx-login-description-case-transform) !important; }
+  .wholesalex-form-wrapper .wholesalex-login-form {
+    width: 100%;
+    max-width: var(--wsx-login-width);
+    box-sizing: border-box;
+    border: var(--wsx-login-border-width) solid var(--wsx-login-border-color);
+    border-radius: var(--wsx-login-border-radius);
+    background-color: var(--wsx-login-bg);
+    padding: var(--wsx-login-padding) 16px var(--wsx-login-padding) 16px; }
+    .wholesalex-form-wrapper .wholesalex-login-form > * {
+      margin: 0 auto; }
+    .wholesalex-form-wrapper .wholesalex-login-form .wsx-fields-container {
+      display: flex;
+      flex-direction: column;
+      gap: 25px; }
+    .wholesalex-form-wrapper .wholesalex-login-form .wholesalex-login-form-title {
+      margin-bottom: 30px !important; }
+  .wholesalex-form-wrapper .wsx-login-fields input {
+    caret-color: var(--wsx-login-input-color); }
+    .wholesalex-form-wrapper .wsx-login-fields input::placeholder {
+      color: var(--wsx-login-input-placeholder-color) !important; }
+    .wholesalex-form-wrapper .wsx-login-fields input::-ms-input-placeholder {
+      color: var(--wsx-login-input-placeholder-color) !important; }
+  .wholesalex-form-wrapper .wholesalex-registration-form {
+    width: 100%;
+    max-width: var(--wsx-form-reg-width);
+    box-sizing: border-box;
+    border-radius: var(--wsx-form-reg-border-radius);
+    border: var(--wsx-form-reg-border-width) solid var(--wsx-form-reg-border-color);
+    background-color: var(--wsx-form-reg-bg);
+    padding: var(--wsx-form-reg-padding) 16px var(--wsx-form-reg-padding) 16px; }
+    .wholesalex-form-wrapper .wholesalex-registration-form > * {
+      margin: 0 auto; }
+  .wholesalex-form-wrapper .wsx-reg-fields .wsx-form-field > select option {
+    background-color: var(--wsx-form-reg-bg) !important; }
+  .wholesalex-form-wrapper .wsx-reg-fields .wsx-form-field > select option, .wholesalex-form-wrapper .wsx-reg-fields .wsx-privacy-policy {
+    color: var(--wsx-input-color) !important; }
+  .wholesalex-form-wrapper .wsx-reg-fields .wsx-form-field > input, .wholesalex-form-wrapper .wsx-reg-fields .wsx-form-field > textarea {
+    caret-color: var(--wsx-input-color); }
+    .wholesalex-form-wrapper .wsx-reg-fields .wsx-form-field > input::placeholder, .wholesalex-form-wrapper .wsx-reg-fields .wsx-form-field > textarea::placeholder {
+      color: var(--wsx-input-placeholder-color) !important; }
+    .wholesalex-form-wrapper .wsx-reg-fields .wsx-form-field > input::-ms-input-placeholder, .wholesalex-form-wrapper .wsx-reg-fields .wsx-form-field > textarea::-ms-input-placeholder {
+      color: var(--wsx-input-placeholder-color) !important; }
+  .wholesalex-form-wrapper .wsx-form-field > textarea,
+  .wholesalex-form-wrapper .wsx-form-field > select,
+  .wholesalex-form-wrapper .wsx-form-field > input {
+    display: block;
+    width: 100% !important;
+    min-width: auto !important;
+    line-height: 1.6em;
+    box-sizing: border-box; }
+    .wholesalex-form-wrapper .wsx-form-field > textarea:focus,
+    .wholesalex-form-wrapper .wsx-form-field > select:focus,
+    .wholesalex-form-wrapper .wsx-form-field > input:focus {
+      box-shadow: none !important;
+      outline: none !important; }
+    .wholesalex-form-wrapper .wsx-form-field > textarea[type='date']::-webkit-calendar-picker-indicator,
+    .wholesalex-form-wrapper .wsx-form-field > select[type='date']::-webkit-calendar-picker-indicator,
+    .wholesalex-form-wrapper .wsx-form-field > input[type='date']::-webkit-calendar-picker-indicator {
+      background-color: var(--wsx-input-placeholder-color); }
+  .wholesalex-form-wrapper .wsx-form-btn-wrapper {
+    text-align: var(--wsx-form-button-align);
+    margin-bottom: 1.5rem; }
+  .wholesalex-form-wrapper button.wsx-register-btn {
+    color: var(--wsx-form-button-color) !important;
+    border: var(--wsx-form-button-border-width) solid var(--wsx-form-button-border-color);
+    background-color: var(--wsx-form-button-bg) !important;
+    transition: .3s;
+    cursor: pointer; }
+    .wholesalex-form-wrapper button.wsx-register-btn:hover {
+      color: var(--wsx-form-button-hover-color) !important;
+      border-color: var(--wsx-form-button-hover-border-color) !important;
+      background-color: var(--wsx-form-button-hover-bg) !important; }
+    .wholesalex-form-wrapper button.wsx-register-btn:disabled {
+      opacity: .5; }
+  .wholesalex-form-wrapper .wholesalex-login-form .wsx-form-btn-wrapper >
+button.wsx-login-btn {
+    color: var(--wsx-login-form-button-color);
+    border: var(--wsx-form-button-border-width) solid var(--wsx-login-form-button-border-color);
+    background-color: var(--wsx-login-form-button-bg);
+    transition: .3s;
+    cursor: pointer; }
+    .wholesalex-form-wrapper .wholesalex-login-form .wsx-form-btn-wrapper >
+button.wsx-login-btn:hover {
+      color: var(--wsx-login-form-button-hover-color);
+      border-color: var(--wsx-login-form-button-hover-border-color);
+      background-color: var(--wsx-login-form-button-hover-bg); }
+  .wholesalex-form-wrapper button.wsx-register-btn,
+  .wholesalex-form-wrapper button.wsx-login-btn {
+    width: 100%;
+    max-width: var(--wsx-form-button-width);
+    min-height: auto !important;
+    display: inline-block;
+    border-radius: var(--wsx-form-button-border-radius);
+    padding: var(--wsx-form-button-padding) !important;
+    text-align: center;
+    margin-top: 36px;
+    box-sizing: border-box;
+    font-size: var(--wsx-form-button-font-size) !important;
+    font-weight: var(--wsx-form-button-weight);
+    font-style: normal;
+    line-height: 1.6em !important;
+    text-transform: var(--wsx-form-button-case-transform) !important; }
+
+/* ============= Form Separator =========== */
+.wsx-form-separator {
+  width: var(--wsx-form-container-separator);
+  display: block;
+  background-color: var(--wsx-form-container-border-color); }
+
+/* ============= Input Label  =========== */
+.wsx-field-heading {
+  margin-bottom: 8px; }
+
+label.wsx-form-label, .wsx-form-label, .wsx-form-field-label {
+  color: var(--wsx-form-label-color) !important;
+  font-size: var(--wsx-form-label-font-size) !important;
+  font-weight: var(--wsx-form-label-weight);
+  font-style: normal;
+  line-height: 1.6em !important;
+  text-transform: var(--wsx-form-label-case-transform) !important; }
+
+.wsx-login-fields label.wsx-form-label, .wsx-login-fields .wsx-form-label, .wsx-login-fields .wsx-form-field-label {
+  color: var(--wsx-login-form-label-color) !important; }
+
+.wsx-login-fields .wsx-form-field-help-message {
+  color: var(--wsx-login-input-color); }
+
+/* ============= Help Message =========== */
+.wsx-form-field-help-message, .wsx-form-field-warning-message {
+  font-style: italic;
+  font-size: 12px;
+  display: block;
+  margin-top: 4px; }
+
+.wsx-form-field-warning-message {
+  color: var(--wsx-input-warning-color); }
+
+/* ======= Heading & Settings Dropdown ======= */
+.wsx-reg-form-heading,
+.wholesalex-login-form-title {
+  position: relative; }
+  .wsx-reg-form-heading .wsx-reg-form-heading-text,
+  .wsx-reg-form-heading .wsx-login-form-title-text,
+  .wholesalex-login-form-title .wsx-reg-form-heading-text,
+  .wholesalex-login-form-title .wsx-login-form-title-text {
+    margin-bottom: 10px; }
+
+/* ===============================  Input Variation Common Style End ================================*/
+/* ===============================  File Input Style Start ================================*/
+.wsx-form-file .wsx-field-content input {
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: 0; }
+  .wsx-form-file .wsx-field-content input::-webkit-file-upload-button {
+    visibility: hidden; }
+
+.wsx-form-file .wsx-field-content .wsx-file-label {
+  color: var(--wsx-input-color);
+  background-color: var(--wsx-input-bg);
+  display: flex !important;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px; }
+  .wsx-form-file .wsx-field-content .wsx-file-label span {
+    color: var(--wsx-form-label-color);
+    border-radius: 1px;
+    border: 1px solid var(--wsx-form-label-color);
+    padding: 2px 8px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    gap: 6px; }
+    .wsx-form-file .wsx-field-content .wsx-file-label span svg {
+      stroke: var(--wsx-form-label-color); }
+      .wsx-form-file .wsx-field-content .wsx-file-label span svg path {
+        stroke: var(--wsx-form-label-color) !important; }
+
+body .wholesalex-form-wrapper .wsx-file-outline .wsx-form-label {
+  position: absolute;
+  transform: translate(16px, -50%);
+  gap: 5px;
+  padding: 0px 5px; }
+
+body .wholesalex-form-wrapper .wsx-file-outline .wsx-clone-label {
+  color: transparent !important;
+  background-color: var(--wsx-input-bg);
+  padding: 0px 5px;
+  height: var(--wsx-input-border-width);
+  transform: translate(16px, 0%); }
+  body .wholesalex-form-wrapper .wsx-file-outline .wsx-clone-label > span {
+    visibility: hidden; }
+
+/* ===============================  File Input Style End ================================*/
+/* ===============================  Radio Style Start ================================*/
+.wsx-field-radio .wsx-field-content {
+  border: 0px !important; }
+
+.wsx-field-radio .wholesalex-field-wrap > div {
+  color: var(--wsx-input-color); }
+
+.wsx-field-radio .wholesalex-field-wrap > input {
+  accent-color: var(--wsx-input-color);
+  height: 17px !important;
+  width: 17px !important;
+  appearance: auto !important; }
+  .wsx-field-radio .wholesalex-field-wrap > input:checked::before {
+    content: none !important; }
+  .wsx-field-radio .wholesalex-field-wrap > input:hover {
+    accent-color: var(--wsx-input-focus-color); }
+  .wsx-field-radio .wholesalex-field-wrap > input:focus {
+    box-shadow: unset !important; }
+
+/* ===============================  Radio Style End ================================*/
+/* ===============================  Checkbox Style Start ================================*/
+.wsx-form-checkbox .wholesalex-field-wrap > input {
+  height: 16px !important;
+  width: 16px !important;
+  min-width: 16px;
+  border-radius: 2px;
+  overflow: hidden;
+  appearance: unset !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6px !important; }
+  .wsx-form-checkbox .wholesalex-field-wrap > input:checked::before {
+    content: " \2714" !important;
+    width: 16px !important;
+    height: 16px !important;
+    font-size: 11px;
+    border-radius: 2px;
+    margin: 0px !important;
+    background-color: var(--wsx-input-bg) !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center; }
+
+.wsx-login-fields {
+  caret-color: var(--wsx-login-input-color); }
+  .wsx-login-fields .wsx-form-checkbox .wholesalex-field-wrap > input {
+    border: 1.5px solid var(--wsx-login-input-color); }
+    .wsx-login-fields .wsx-form-checkbox .wholesalex-field-wrap > input:checked::before {
+      color: var(--wsx-login-input-color);
+      background-color: var(--wsx-login-input-bg) !important; }
+  .wsx-login-fields .wsx-form-checkbox .wsx-field-content {
+    border-color: var(--wsx-login-input-border-color); }
+  .wsx-login-fields .wsx-form-checkbox label {
+    color: var(--wsx-login-input-color) !important; }
+
+.wsx-reg-fields {
+  caret-color: var(--wsx-input-color); }
+  .wsx-reg-fields .wsx-form-field-help-message {
+    color: var(--wsx-input-color); }
+  .wsx-reg-fields .wsx-form-checkbox .wholesalex-field-wrap > input {
+    border: 1.5px solid var(--wsx-input-color);
+    accent-color: transparent !important; }
+    .wsx-reg-fields .wsx-form-checkbox .wholesalex-field-wrap > input:checked::before {
+      color: var(--wsx-input-color); }
+
+/* ===============================  Checkbox Style End ================================*/
+/* ===============================  Checkbox & Radio Common Start ================================*/
+.wsx-form-field.wsx-field-radio .wholesalex-field-wrap {
+  display: flex !important;
+  justify-content: flex-start;
+  align-items: center; }
+
+.wsx-form-field.wsx-form-checkbox .wholesalex-field-wrap {
+  display: flex !important;
+  justify-content: flex-start;
+  align-items: flex-start; }
+
+.wsx-form-field.wsx-form-checkbox .wholesalex-field-wrap, .wsx-form-field.wsx-field-radio .wholesalex-field-wrap {
+  gap: 8px; }
+  .wsx-form-field.wsx-form-checkbox .wholesalex-field-wrap input, .wsx-form-field.wsx-field-radio .wholesalex-field-wrap input {
+    margin: 0px;
+    cursor: pointer; }
+    .wsx-form-field.wsx-form-checkbox .wholesalex-field-wrap input:focus, .wsx-form-field.wsx-field-radio .wholesalex-field-wrap input:focus {
+      outline: none;
+      box-shadow: none; }
+
+.wsx-form-field.wsx-form-checkbox .wsx-form-field-help-message, .wsx-form-field.wsx-field-radio .wsx-form-field-help-message {
+  margin-top: 8px !important; }
+
+.wsx-form-field.wsx-form-checkbox .wsx-field-content, .wsx-form-field.wsx-field-radio .wsx-field-content {
+  display: flex;
+  row-gap: 20px;
+  column-gap: 32px;
+  flex-wrap: wrap; }
+  .wsx-form-field.wsx-form-checkbox .wsx-field-content label, .wsx-form-field.wsx-field-radio .wsx-field-content label {
+    color: var(--wsx-input-color);
+    margin: 0px !important; }
+
+/* ===============================  Checkbox & Radio Common End ================================*/
+/* ===============================  Common Variation Style  Start ================================*/
+.wholesalex-registration-form .wsx_variation_1 .wsx-reg-form-row-setting,
+.wholesalex-registration-form .wsx_variation_3 .wsx-reg-form-row-setting {
+  position: static; }
+
+.wsx_variation_1 .wsx-login-fields .wsx-form-field > input,
+.wsx_variation_1 .wsx-login-fields .wsx-form-field > textarea,
+.wsx_variation_1 .wsx-login-fields .wsx-form-field > select,
+.wsx_variation_2 .wsx-login-fields .wsx-form-field > input,
+.wsx_variation_2 .wsx-login-fields .wsx-form-field > textarea,
+.wsx_variation_2 .wsx-login-fields .wsx-form-field > select,
+.wsx_variation_3 .wsx-login-fields .wsx-form-field > input,
+.wsx_variation_3 .wsx-login-fields .wsx-form-field > textarea,
+.wsx_variation_3 .wsx-login-fields .wsx-form-field > select,
+.wsx_variation_6 .wsx-login-fields .wsx-form-field > input,
+.wsx_variation_6 .wsx-login-fields .wsx-form-field > textarea,
+.wsx_variation_6 .wsx-login-fields .wsx-form-field > select,
+.wsx_variation_7 .wsx-login-fields .wsx-form-field > input,
+.wsx_variation_7 .wsx-login-fields .wsx-form-field > textarea,
+.wsx_variation_7 .wsx-login-fields .wsx-form-field > select {
+  color: var(--wsx-login-input-color);
+  background-color: var(--wsx-login-input-bg) !important;
+  padding: var(--wsx-input-padding);
+  border-radius: var(--wsx-input-border-radius);
+  caret-color: var(--wsx-login-input-color);
+  border: var(--wsx-input-border-width) solid var(--wsx-login-input-border-color);
+  font-size: var(--wsx-input-font-size) !important;
+  font-weight: var(--wsx-input-weight);
+  font-style: normal;
+  line-height: 1.6em !important; }
+  .wsx_variation_1 .wsx-login-fields .wsx-form-field > input:focus,
+  .wsx_variation_1 .wsx-login-fields .wsx-form-field > textarea:focus,
+  .wsx_variation_1 .wsx-login-fields .wsx-form-field > select:focus,
+  .wsx_variation_2 .wsx-login-fields .wsx-form-field > input:focus,
+  .wsx_variation_2 .wsx-login-fields .wsx-form-field > textarea:focus,
+  .wsx_variation_2 .wsx-login-fields .wsx-form-field > select:focus,
+  .wsx_variation_3 .wsx-login-fields .wsx-form-field > input:focus,
+  .wsx_variation_3 .wsx-login-fields .wsx-form-field > textarea:focus,
+  .wsx_variation_3 .wsx-login-fields .wsx-form-field > select:focus,
+  .wsx_variation_6 .wsx-login-fields .wsx-form-field > input:focus,
+  .wsx_variation_6 .wsx-login-fields .wsx-form-field > textarea:focus,
+  .wsx_variation_6 .wsx-login-fields .wsx-form-field > select:focus,
+  .wsx_variation_7 .wsx-login-fields .wsx-form-field > input:focus,
+  .wsx_variation_7 .wsx-login-fields .wsx-form-field > textarea:focus,
+  .wsx_variation_7 .wsx-login-fields .wsx-form-field > select:focus {
+    color: var(--wsx-login-input-focus-color) !important;
+    background-color: var(--wsx-login-input-focus-bg) !important;
+    border-color: var(--wsx-login-input-focus-border-color) !important; }
+
+.wsx_variation_1 .wsx-login-fields .wsx-form-field.wsx-field-warning > input,
+.wsx_variation_1 .wsx-login-fields .wsx-form-field.wsx-field-warning > textarea,
+.wsx_variation_1 .wsx-login-fields .wsx-form-field.wsx-field-warning > select,
+.wsx_variation_2 .wsx-login-fields .wsx-form-field.wsx-field-warning > input,
+.wsx_variation_2 .wsx-login-fields .wsx-form-field.wsx-field-warning > textarea,
+.wsx_variation_2 .wsx-login-fields .wsx-form-field.wsx-field-warning > select,
+.wsx_variation_3 .wsx-login-fields .wsx-form-field.wsx-field-warning > input,
+.wsx_variation_3 .wsx-login-fields .wsx-form-field.wsx-field-warning > textarea,
+.wsx_variation_3 .wsx-login-fields .wsx-form-field.wsx-field-warning > select,
+.wsx_variation_6 .wsx-login-fields .wsx-form-field.wsx-field-warning > input,
+.wsx_variation_6 .wsx-login-fields .wsx-form-field.wsx-field-warning > textarea,
+.wsx_variation_6 .wsx-login-fields .wsx-form-field.wsx-field-warning > select,
+.wsx_variation_7 .wsx-login-fields .wsx-form-field.wsx-field-warning > input,
+.wsx_variation_7 .wsx-login-fields .wsx-form-field.wsx-field-warning > textarea,
+.wsx_variation_7 .wsx-login-fields .wsx-form-field.wsx-field-warning > select {
+  color: var(--wsx-login-input-warning-color) !important;
+  background-color: var(--wsx-login-input-warning-bg) !important;
+  border-color: var(--wsx-login-input-warning-border-color) !important; }
+
+.wsx_variation_1 .wsx-reg-fields .wsx-form-field > input,
+.wsx_variation_1 .wsx-reg-fields .wsx-form-field > textarea,
+.wsx_variation_1 .wsx-reg-fields .wsx-form-field > select,
+.wsx_variation_2 .wsx-reg-fields .wsx-form-field > input,
+.wsx_variation_2 .wsx-reg-fields .wsx-form-field > textarea,
+.wsx_variation_2 .wsx-reg-fields .wsx-form-field > select,
+.wsx_variation_3 .wsx-reg-fields .wsx-form-field > input,
+.wsx_variation_3 .wsx-reg-fields .wsx-form-field > textarea,
+.wsx_variation_3 .wsx-reg-fields .wsx-form-field > select,
+.wsx_variation_6 .wsx-reg-fields .wsx-form-field > input,
+.wsx_variation_6 .wsx-reg-fields .wsx-form-field > textarea,
+.wsx_variation_6 .wsx-reg-fields .wsx-form-field > select,
+.wsx_variation_7 .wsx-reg-fields .wsx-form-field > input,
+.wsx_variation_7 .wsx-reg-fields .wsx-form-field > textarea,
+.wsx_variation_7 .wsx-reg-fields .wsx-form-field > select {
+  color: var(--wsx-input-color);
+  background-color: var(--wsx-input-bg) !important;
+  caret-color: var(--wsx-input-color); }
+  .wsx_variation_1 .wsx-reg-fields .wsx-form-field > input:focus,
+  .wsx_variation_1 .wsx-reg-fields .wsx-form-field > textarea:focus,
+  .wsx_variation_1 .wsx-reg-fields .wsx-form-field > select:focus,
+  .wsx_variation_2 .wsx-reg-fields .wsx-form-field > input:focus,
+  .wsx_variation_2 .wsx-reg-fields .wsx-form-field > textarea:focus,
+  .wsx_variation_2 .wsx-reg-fields .wsx-form-field > select:focus,
+  .wsx_variation_3 .wsx-reg-fields .wsx-form-field > input:focus,
+  .wsx_variation_3 .wsx-reg-fields .wsx-form-field > textarea:focus,
+  .wsx_variation_3 .wsx-reg-fields .wsx-form-field > select:focus,
+  .wsx_variation_6 .wsx-reg-fields .wsx-form-field > input:focus,
+  .wsx_variation_6 .wsx-reg-fields .wsx-form-field > textarea:focus,
+  .wsx_variation_6 .wsx-reg-fields .wsx-form-field > select:focus,
+  .wsx_variation_7 .wsx-reg-fields .wsx-form-field > input:focus,
+  .wsx_variation_7 .wsx-reg-fields .wsx-form-field > textarea:focus,
+  .wsx_variation_7 .wsx-reg-fields .wsx-form-field > select:focus {
+    color: var(--wsx-input-focus-color) !important;
+    background-color: var(--wsx-input-focus-bg) !important;
+    border-color: var(--wsx-input-focus-border-color) !important; }
+
+.wsx_variation_1 .wsx-reg-fields .wsx-form-field.wsx-field-warning > input,
+.wsx_variation_1 .wsx-reg-fields .wsx-form-field.wsx-field-warning > textarea,
+.wsx_variation_1 .wsx-reg-fields .wsx-form-field.wsx-field-warning > select,
+.wsx_variation_1 .wsx-reg-fields .wsx-form-field.wsx-field-warning > .wsx-field-content > .wsx-file-label,
+.wsx_variation_2 .wsx-reg-fields .wsx-form-field.wsx-field-warning > input,
+.wsx_variation_2 .wsx-reg-fields .wsx-form-field.wsx-field-warning > textarea,
+.wsx_variation_2 .wsx-reg-fields .wsx-form-field.wsx-field-warning > select,
+.wsx_variation_2 .wsx-reg-fields .wsx-form-field.wsx-field-warning > .wsx-field-content > .wsx-file-label,
+.wsx_variation_3 .wsx-reg-fields .wsx-form-field.wsx-field-warning > input,
+.wsx_variation_3 .wsx-reg-fields .wsx-form-field.wsx-field-warning > textarea,
+.wsx_variation_3 .wsx-reg-fields .wsx-form-field.wsx-field-warning > select,
+.wsx_variation_3 .wsx-reg-fields .wsx-form-field.wsx-field-warning > .wsx-field-content > .wsx-file-label,
+.wsx_variation_6 .wsx-reg-fields .wsx-form-field.wsx-field-warning > input,
+.wsx_variation_6 .wsx-reg-fields .wsx-form-field.wsx-field-warning > textarea,
+.wsx_variation_6 .wsx-reg-fields .wsx-form-field.wsx-field-warning > select,
+.wsx_variation_6 .wsx-reg-fields .wsx-form-field.wsx-field-warning > .wsx-field-content > .wsx-file-label,
+.wsx_variation_7 .wsx-reg-fields .wsx-form-field.wsx-field-warning > input,
+.wsx_variation_7 .wsx-reg-fields .wsx-form-field.wsx-field-warning > textarea,
+.wsx_variation_7 .wsx-reg-fields .wsx-form-field.wsx-field-warning > select,
+.wsx_variation_7 .wsx-reg-fields .wsx-form-field.wsx-field-warning > .wsx-field-content > .wsx-file-label {
+  color: var(--wsx-input-warning-color) !important;
+  background-color: var(--wsx-input-warning-bg) !important;
+  border-color: var(--wsx-input-warning-border-color) !important; }
+
+/* ===============================  Common Variation Style  End ================================*/
+/* ===============================  Variation Style 2 Start ================================*/
+.wsx_variation_2 > .wsx-reg-form-row-setting {
+  position: absolute !important;
+  right: 0px !important;
+  bottom: 100% !important; }
+
+.wsx_variation_2 .wsx-reg-fields .wsx-outline-focus > input,
+.wsx_variation_2 .wsx-reg-fields .wsx-outline-focus > textarea,
+.wsx_variation_2 .wsx-reg-fields .wsx-outline-focus > select {
+  color: var(--wsx-input-color);
+  background-color: var(--wsx-input-bg) !important;
+  caret-color: var(--wsx-input-color); }
+  .wsx_variation_2 .wsx-reg-fields .wsx-outline-focus > input:focus + .wsx-form-label,
+  .wsx_variation_2 .wsx-reg-fields .wsx-outline-focus > textarea:focus + .wsx-form-label,
+  .wsx_variation_2 .wsx-reg-fields .wsx-outline-focus > select:focus + .wsx-form-label {
+    background-color: var(--wsx-input-focus-bg) !important; }
+
+.wsx_variation_2 .wsx-reg-fields .wsx-outline-focus .wsx-form-label.wsx-clone-label {
+  background-color: var(--wsx-input-bg); }
+
+.wsx_variation_2 .wsx-login-fields .wsx-outline-focus > input,
+.wsx_variation_2 .wsx-login-fields .wsx-outline-focus > textarea,
+.wsx_variation_2 .wsx-login-fields .wsx-outline-focus > select {
+  color: var(--wsx-login-input-color);
+  background-color: var(--wsx-login-input-bg) !important;
+  padding: var(--wsx-input-padding);
+  border-radius: var(--wsx-input-border-radius);
+  caret-color: var(--wsx-login-input-color);
+  border: var(--wsx-input-border-width) solid var(--wsx-login-input-border-color);
+  font-size: var(--wsx-input-font-size) !important;
+  font-weight: var(--wsx-input-weight);
+  font-style: normal;
+  line-height: 1.6em !important; }
+  .wsx_variation_2 .wsx-login-fields .wsx-outline-focus > input:focus + .wsx-form-label,
+  .wsx_variation_2 .wsx-login-fields .wsx-outline-focus > textarea:focus + .wsx-form-label,
+  .wsx_variation_2 .wsx-login-fields .wsx-outline-focus > select:focus + .wsx-form-label {
+    background-color: var(--wsx-login-input-focus-bg) !important; }
+
+.wsx_variation_2 .wsx-login-fields .wsx-outline-focus .wsx-form-label.wsx-clone-label {
+  background-color: var(--wsx-login-input-bg); }
+
+.wsx_variation_2 .wsx-outline-focus {
+  display: flex;
+  background: transparent;
+  position: relative; }
+  .wsx_variation_2 .wsx-outline-focus .wsx-form-label {
+    padding: 0px 5px;
+    position: absolute;
+    transform: translate(16px, -50%);
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    gap: 5px; }
+    .wsx_variation_2 .wsx-outline-focus .wsx-form-label.wsx-clone-label {
+      color: transparent !important;
+      padding: 0px 5px;
+      height: var(--wsx-input-border-width);
+      transform: translate(16px, 0%); }
+
+/* ===============================  Variation Style 2 End ================================*/
+/* ===============================  Variation Style 3  Start ================================*/
+.wsx_variation_3 .wsx-form-field > textarea,
+.wsx_variation_3 .wsx-form-field > select,
+.wsx_variation_3 .wsx-form-field .wsx-file-label,
+.wsx_variation_3 .wsx-form-field > input {
+  border-top: 0px !important;
+  border-left: 0px !important;
+  border-right: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important; }
+  .wsx_variation_3 .wsx-form-field > textarea:focus,
+  .wsx_variation_3 .wsx-form-field > select:focus,
+  .wsx_variation_3 .wsx-form-field .wsx-file-label:focus,
+  .wsx_variation_3 .wsx-form-field > input:focus {
+    border-top: 0px !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important; }
+
+/* ===============================  Variation Style 3  End ================================*/
+/* ===============================  Variation Style 3 & 4 Start ================================*/
+.wsx_variation_3 .wsx-form-file .wsx-file-label, .wsx_variation_4 .wsx-form-file .wsx-file-label {
+  border-top: 0px !important;
+  border-left: 0px !important;
+  border-right: 0px !important; }
+
+/* ===============================  Variation Style 3 & 4 End ================================*/
+/* ===============================  Variation Style 4 Start ================================*/
+.wsx_variation_4 .wsx-form-file .wsx-field-content {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top: 0px !important;
+  border-left: 0px !important;
+  border-right: 0px !important; }
+
+.wsx_variation_4 .wsx-outline-focus {
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  padding-top: calc(var(--wsx-input-padding) / 2) !important;
+  padding-bottom: calc(var(--wsx-input-padding) / 2) !important;
+  border-top: 0px !important;
+  border-left: 0px !important;
+  border-right: 0px !important; }
+
+/* ===============================  Variation Style 4 End ================================*/
+/* ===============================  Variation Style 4 & 5 Start ================================*/
+.wsx_variation_4 .wsx-field-content, .wsx_variation_5 .wsx-field-content, .wsx_variation_8 .wsx-field-content {
+  background-color: var(--wsx-input-bg);
+  display: block; }
+
+.wsx_variation_4 .wsx-file-label, .wsx_variation_5 .wsx-file-label, .wsx_variation_8 .wsx-file-label {
+  background-color: unset !important;
+  padding: 0px !important;
+  border: 0px !important;
+  border-radius: 0px !important;
+  flex-direction: column !important;
+  align-items: flex-start !important; }
+  .wsx_variation_4 .wsx-file-label span, .wsx_variation_5 .wsx-file-label span, .wsx_variation_8 .wsx-file-label span {
+    padding: 0px;
+    border: 0px; }
+  .wsx_variation_4 .wsx-file-label .wsx-form-label, .wsx_variation_5 .wsx-file-label .wsx-form-label, .wsx_variation_8 .wsx-file-label .wsx-form-label {
+    display: flex;
+    gap: 5px; }
+    .wsx_variation_4 .wsx-file-label .wsx-form-label span, .wsx_variation_5 .wsx-file-label .wsx-form-label span, .wsx_variation_8 .wsx-file-label .wsx-form-label span {
+      border: 0px !important;
+      padding: 0px !important; }
+
+.wsx_variation_4 .wsx-file-label_wrap, .wsx_variation_5 .wsx-file-label_wrap {
+  display: flex !important;
+  align-items: center;
+  gap: 20px; }
+
+.wsx_variation_4 .wsx-reg-fields .wsx-form-field.wsx-outline-focus, .wsx_variation_5 .wsx-reg-fields .wsx-form-field.wsx-outline-focus {
+  color: var(--wsx-input-color);
+  background-color: var(--wsx-input-bg) !important;
+  caret-color: var(--wsx-input-color); }
+  .wsx_variation_4 .wsx-reg-fields .wsx-form-field.wsx-outline-focus:focus-within, .wsx_variation_5 .wsx-reg-fields .wsx-form-field.wsx-outline-focus:focus-within {
+    border-style: solid;
+    color: var(--wsx-input-focus-color) !important;
+    background-color: var(--wsx-input-focus-bg) !important;
+    border-color: var(--wsx-input-focus-border-color) !important; }
+
+.wsx_variation_4 .wsx-reg-fields .wsx-form-field > input,
+.wsx_variation_4 .wsx-reg-fields .wsx-form-field > select,
+.wsx_variation_4 .wsx-reg-fields .wsx-form-field > textarea, .wsx_variation_5 .wsx-reg-fields .wsx-form-field > input,
+.wsx_variation_5 .wsx-reg-fields .wsx-form-field > select,
+.wsx_variation_5 .wsx-reg-fields .wsx-form-field > textarea {
+  color: var(--wsx-input-color); }
+
+.wsx_variation_4 .wsx-login-fields .wsx-form-field.wsx-outline-focus, .wsx_variation_5 .wsx-login-fields .wsx-form-field.wsx-outline-focus {
+  color: var(--wsx-login-input-color);
+  background-color: var(--wsx-login-input-bg) !important;
+  padding: var(--wsx-input-padding);
+  border-radius: var(--wsx-input-border-radius);
+  caret-color: var(--wsx-login-input-color);
+  border: var(--wsx-input-border-width) solid var(--wsx-login-input-border-color);
+  font-size: var(--wsx-input-font-size) !important;
+  font-weight: var(--wsx-input-weight);
+  font-style: normal;
+  line-height: 1.6em !important; }
+  .wsx_variation_4 .wsx-login-fields .wsx-form-field.wsx-outline-focus:focus-within, .wsx_variation_5 .wsx-login-fields .wsx-form-field.wsx-outline-focus:focus-within {
+    border-style: solid;
+    color: var(--wsx-login-input-focus-color) !important;
+    background-color: var(--wsx-login-input-focus-bg) !important;
+    border-color: var(--wsx-login-input-focus-border-color) !important; }
+
+.wsx_variation_4 .wsx-login-fields .wsx-form-field > input,
+.wsx_variation_4 .wsx-login-fields .wsx-form-field > select,
+.wsx_variation_4 .wsx-login-fields .wsx-form-field > textarea, .wsx_variation_5 .wsx-login-fields .wsx-form-field > input,
+.wsx_variation_5 .wsx-login-fields .wsx-form-field > select,
+.wsx_variation_5 .wsx-login-fields .wsx-form-field > textarea {
+  color: var(--wsx-login-input-color); }
+
+.wsx_variation_4 .wsx-form-field.wsx-outline-focus, .wsx_variation_5 .wsx-form-field.wsx-outline-focus {
+  position: relative;
+  border-style: solid;
+  margin-top: 4px;
+  display: flex !important;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column-reverse; }
+  .wsx_variation_4 .wsx-form-field.wsx-outline-focus > select,
+  .wsx_variation_4 .wsx-form-field.wsx-outline-focus > input, .wsx_variation_5 .wsx-form-field.wsx-outline-focus > select,
+  .wsx_variation_5 .wsx-form-field.wsx-outline-focus > input {
+    border: none !important;
+    box-shadow: none;
+    background-color: transparent;
+    padding: 0px !important;
+    margin: 0px !important;
+    min-height: fit-content !important; }
+  .wsx_variation_4 .wsx-form-field.wsx-outline-focus > textarea, .wsx_variation_5 .wsx-form-field.wsx-outline-focus > textarea {
+    border: none !important;
+    box-shadow: none;
+    background-color: transparent;
+    padding: 0px !important;
+    margin: 0px !important; }
+
+.wsx_variation_4 .wsx-login-fields .wsx-field-warning.wsx-form-field:not(.wsx-form-checkbox), .wsx_variation_5 .wsx-login-fields .wsx-field-warning.wsx-form-field:not(.wsx-form-checkbox) {
+  color: var(--wsx-login-input-warning-color) !important;
+  background-color: var(--wsx-login-input-warning-bg) !important;
+  border-color: var(--wsx-login-input-warning-border-color) !important; }
+
+.wsx_variation_4 .wsx-reg-fields .wsx-field-warning.wsx-form-field:not(.wsx-field-radio):not(.wsx-form-checkbox):not(.wsx-form-file), .wsx_variation_4 .wsx-reg-fields .wsx-form-file.wsx-field-warning .wsx-field-content, .wsx_variation_5 .wsx-reg-fields .wsx-field-warning.wsx-form-field:not(.wsx-field-radio):not(.wsx-form-checkbox):not(.wsx-form-file), .wsx_variation_5 .wsx-reg-fields .wsx-form-file.wsx-field-warning .wsx-field-content {
+  color: var(--wsx-input-warning-color) !important;
+  background-color: var(--wsx-input-warning-bg) !important;
+  border-color: var(--wsx-input-warning-border-color) !important; }
+
+.wsx_variation_4 .wsx-field-radio .wsx-field-content, .wsx_variation_4 .wsx-form-checkbox .wsx-field-content, .wsx_variation_5 .wsx-field-radio .wsx-field-content, .wsx_variation_5 .wsx-form-checkbox .wsx-field-content {
+  background-color: unset;
+  border: 0px;
+  padding: 0px; }
+
+/* ===============================  Variation Style 4 & 5 End ================================*/
+/* ===============================  Variation Style 5 ================================*/
+.wsx_variation_5 .wsx-outline-focus {
+  padding-top: calc(var(--wsx-input-padding) / 2) !important;
+  padding-bottom: calc(var(--wsx-input-padding) / 2) !important; }
+
+/* ===============================  Variation Style 5 End ================================*/
+/* ===============================  Variation Style 6 Start ================================*/
+.wsx_variation_6 .wholesalex-registration-form-column:has(> .wsx-form-select) .wsx-field-heading {
+  position: static !important; }
+
+.wsx_variation_6 .wsx-form-date,
+.wsx_variation_6 .wsx-form-select {
+  display: flex !important;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column-reverse; }
+
+.wsx_variation_6 .wsx-outline-focus:not(.wsx-form-select):not(.wsx-form-date) {
+  display: flex !important;
+  justify-content: flex-start;
+  align-items: center; }
+  .wsx_variation_6 .wsx-outline-focus:not(.wsx-form-select):not(.wsx-form-date) > select,
+  .wsx_variation_6 .wsx-outline-focus:not(.wsx-form-select):not(.wsx-form-date) > input {
+    height: fit-content !important;
+    box-sizing: border-box; }
+  .wsx_variation_6 .wsx-outline-focus:not(.wsx-form-select):not(.wsx-form-date) > textarea:focus ~ .wsx-form-label,
+  .wsx_variation_6 .wsx-outline-focus:not(.wsx-form-select):not(.wsx-form-date) > textarea:focus-within ~ .wsx-form-label,
+  .wsx_variation_6 .wsx-outline-focus:not(.wsx-form-select):not(.wsx-form-date) > input:focus ~ .wsx-form-label,
+  .wsx_variation_6 .wsx-outline-focus:not(.wsx-form-select):not(.wsx-form-date) > input:focus-within ~ .wsx-form-label {
+    display: none !important; }
+  .wsx_variation_6 .wsx-outline-focus:not(.wsx-form-select):not(.wsx-form-date) > input:not([value]):not(:defined) {
+    display: none !important; }
+  .wsx_variation_6 .wsx-outline-focus:not(.wsx-form-select):not(.wsx-form-date) .wsx-form-label {
+    position: absolute;
+    padding-left: var(--wsx-input-padding); }
+    .wsx_variation_6 .wsx-outline-focus:not(.wsx-form-select):not(.wsx-form-date) .wsx-form-label:focus, .wsx_variation_6 .wsx-outline-focus:not(.wsx-form-select):not(.wsx-form-date) .wsx-form-label:focus-within {
+      display: none !important; }
+
+/* ===============================  Variation Style 6 End ================================*/
+/* ===============================  Variation Style 7 Start ================================*/
+.wsx_variation_7 .wsx-outline-focus {
+  display: flex !important;
+  background: transparent;
+  position: relative; }
+  .wsx_variation_7 .wsx-outline-focus > input,
+  .wsx_variation_7 .wsx-outline-focus > textarea,
+  .wsx_variation_7 .wsx-outline-focus > select {
+    color: var(--wsx-input-color);
+    background-color: var(--wsx-input-bg) !important;
+    caret-color: var(--wsx-input-color); }
+    .wsx_variation_7 .wsx-outline-focus > input:focus ~ .wsx-form-label, .wsx_variation_7 .wsx-outline-focus > input:focus ~ .wsx-clone-label,
+    .wsx_variation_7 .wsx-outline-focus > textarea:focus ~ .wsx-form-label,
+    .wsx_variation_7 .wsx-outline-focus > textarea:focus ~ .wsx-clone-label,
+    .wsx_variation_7 .wsx-outline-focus > select:focus ~ .wsx-form-label,
+    .wsx_variation_7 .wsx-outline-focus > select:focus ~ .wsx-clone-label {
+      transform: translate(16px, -50%);
+      padding-left: 6px;
+      padding-right: 6px;
+      top: 0px !important; }
+    .wsx_variation_7 .wsx-outline-focus > input:not(:placeholder-shown) ~ .wsx-form-label,
+    .wsx_variation_7 .wsx-outline-focus > textarea:not(:placeholder-shown) ~ .wsx-form-label,
+    .wsx_variation_7 .wsx-outline-focus > select:not(:placeholder-shown) ~ .wsx-form-label {
+      transform: translate(16px, -50%) !important;
+      padding-left: 6px !important;
+      padding-right: 6px !important;
+      top: 0px !important; }
+    .wsx_variation_7 .wsx-outline-focus > input:not(:placeholder-shown) ~ .wsx-clone-label,
+    .wsx_variation_7 .wsx-outline-focus > textarea:not(:placeholder-shown) ~ .wsx-clone-label,
+    .wsx_variation_7 .wsx-outline-focus > select:not(:placeholder-shown) ~ .wsx-clone-label {
+      transform: translate(16px, 0%) !important;
+      padding-top: 0px !important;
+      padding-bottom: 0px !important;
+      background-color: var(--wsx-input-bg); }
+    .wsx_variation_7 .wsx-outline-focus > input:focus ~ .wsx-clone-label,
+    .wsx_variation_7 .wsx-outline-focus > textarea:focus ~ .wsx-clone-label,
+    .wsx_variation_7 .wsx-outline-focus > select:focus ~ .wsx-clone-label {
+      transform: translate(16px, 0%) !important;
+      padding-top: 0px !important;
+      padding-bottom: 0px;
+      top: 0px !important;
+      background-color: var(--wsx-input-focus-bg) !important; }
+  .wsx_variation_7 .wsx-outline-focus .wsx-form-label {
+    padding: var(--wsx-input-padding);
+    z-index: 999 !important;
+    transform: translate(var(--wsx-input-padding), -50%);
+    transition: .3s;
+    position: absolute !important;
+    top: 50% !important;
+    left: 0% !important; }
+    .wsx_variation_7 .wsx-outline-focus .wsx-form-label.wsx-clone-label {
+      position: absolute;
+      height: calc(var(--wsx-input-border-width)* 2);
+      z-index: 0 !important;
+      color: transparent !important;
+      transform: translate(0px, -50%) !important;
+      padding-top: 0px !important;
+      padding-bottom: 0px !important;
+      transition: unset !important; }
+
+.wsx_variation_7 .wsx-login-fields .wsx-outline-focus > input:not(:placeholder-shown) ~ .wsx-clone-label,
+.wsx_variation_7 .wsx-login-fields .wsx-outline-focus > textarea:not(:placeholder-shown) ~ .wsx-clone-label,
+.wsx_variation_7 .wsx-login-fields .wsx-outline-focus > select:not(:placeholder-shown) ~ .wsx-clone-label {
+  background-color: var(--wsx-login-input-focus-bg) !important; }
+
+.wsx_variation_7 .wsx-login-fields .wsx-outline-focus > input:focus ~ .wsx-clone-label,
+.wsx_variation_7 .wsx-login-fields .wsx-outline-focus > textarea:focus ~ .wsx-clone-label,
+.wsx_variation_7 .wsx-login-fields .wsx-outline-focus > select:focus ~ .wsx-clone-label {
+  background-color: var(--wsx-login-input-focus-bg) !important; }
+
+/* ===============================  Variation Style 7 End ================================*/
+/* ===============================  Variation Style 8 Start ================================*/
+.wsx_variation_8 .wsx-form-field > input,
+.wsx_variation_8 .wsx-form-field > textarea,
+.wsx_variation_8 .wsx-form-field > select {
+  border: none !important;
+  box-sizing: border-box;
+  background-color: transparent !important;
+  padding: 0px; }
+
+.wsx_variation_8 .wsx-form-field.wsx-outline-focus {
+  cursor: text;
+  display: block;
+  padding-left: 0px !important;
+  margin-top: 0px !important;
+  box-sizing: border-box;
+  color: var(--wsx-input-color);
+  background-color: var(--wsx-input-bg) !important;
+  caret-color: var(--wsx-input-color);
+  border-top: 0px !important;
+  border-left: 0px !important;
+  border-right: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important; }
+
+.wsx_variation_8 .wsx-login-fields .wsx-form-field > input,
+.wsx_variation_8 .wsx-login-fields .wsx-form-field > textarea,
+.wsx_variation_8 .wsx-login-fields .wsx-form-field > select {
+  color: var(--wsx-login-input-color); }
+  .wsx_variation_8 .wsx-login-fields .wsx-form-field > input:focus,
+  .wsx_variation_8 .wsx-login-fields .wsx-form-field > textarea:focus,
+  .wsx_variation_8 .wsx-login-fields .wsx-form-field > select:focus {
+    color: var(--wsx-login-input-focus-color) !important; }
+
+.wsx_variation_8 .wsx-login-fields .wsx-form-field.wsx-outline-focus {
+  background-color: var(--wsx-login-input-bg) !important; }
+  .wsx_variation_8 .wsx-login-fields .wsx-form-field.wsx-outline-focus:focus-within {
+    border-color: var(--wsx-login-input-focus-color) !important;
+    background-color: var(--wsx-login-input-focus-bg) !important; }
+
+.wsx_variation_8 .wsx-login-fields .wsx-form-field.wsx-field-warning:not(.wsx-field-radio):not(.wsx-form-checkbox), .wsx_variation_8 .wsx-login-fields .wsx-form-field.wsx-field-warning.wsx-form-file > .wsx-field-content {
+  color: var(--wsx-login-input-warning-color) !important;
+  background-color: var(--wsx-login-input-warning-bg) !important;
+  border-color: var(--wsx-login-input-warning-border-color) !important; }
+
+.wsx_variation_8 .wsx-reg-fields .wsx-form-field > input,
+.wsx_variation_8 .wsx-reg-fields .wsx-form-field > textarea,
+.wsx_variation_8 .wsx-reg-fields .wsx-form-field > select {
+  color: var(--wsx-input-color); }
+  .wsx_variation_8 .wsx-reg-fields .wsx-form-field > input:focus,
+  .wsx_variation_8 .wsx-reg-fields .wsx-form-field > textarea:focus,
+  .wsx_variation_8 .wsx-reg-fields .wsx-form-field > select:focus {
+    color: var(--wsx-input-focus-color) !important; }
+
+.wsx_variation_8 .wsx-reg-fields .wsx-form-field.wsx-outline-focus {
+  background-color: var(--wsx-input-bg) !important; }
+  .wsx_variation_8 .wsx-reg-fields .wsx-form-field.wsx-outline-focus:focus-within {
+    border-color: var(--wsx-input-focus-border-color) !important;
+    background-color: var(--wsx-input-focus-bg) !important; }
+
+.wsx_variation_8 .wsx-reg-fields .wsx-form-field.wsx-field-warning:not(.wsx-field-radio):not(.wsx-form-checkbox), .wsx_variation_8 .wsx-reg-fields .wsx-form-field.wsx-field-warning.wsx-form-file > .wsx-field-content {
+  color: var(--wsx-input-warning-color) !important;
+  background-color: var(--wsx-input-warning-bg) !important;
+  border-color: var(--wsx-input-warning-border-color) !important; }
+
+.wsx_variation_8 .wsx-field-radio .wsx-field-content, .wsx_variation_8 .wsx-form-checkbox .wsx-field-content {
+  background-color: unset;
+  border: 0px;
+  padding: 0px; }
+
+.wsx_variation_8 .wsx-file-label {
+  flex-direction: column;
+  align-items: flex-start !important;
+  border-top: 0px !important;
+  border-left: 0px !important;
+  border-right: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important; }
+
+.wsx_variation_8 .wsx-file-label_wrap {
+  display: flex !important;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px; }
+
+.wsx_variation_8 .wsx-field-content {
+  border-radius: var(--wsx-input-border-radius) var(--wsx-input-border-radius) 0px 0px;
+  border-top: 0px !important;
+  border-left: 0px !important;
+  border-right: 0px !important; }
+
+/* ===============================  Variation Style 8 End ================================*/
+/* ===============================  Editor & Frontend Start ================================*/
+.wsx-form-wrapper_frontend.wsx_variation_5 .wsx-field-content > .wsx-file-label, .wsx-form-wrapper_frontend.wsx_variation_4 .wsx-field-content > .wsx-file-label {
+  flex-direction: row !important;
+  align-items: center !important; }
+
+[data-type='wholesalex/forms'] {
+  width: 100% !important;
+  max-width: 100% !important; }
+
+[data-type='wholesalex/forms'] .wsx-reg-form-heading, .wp-block-wholesalex-forms.wholesalex-form .wsx-reg-form-heading, .wsx-form-wrapper_frontend .wsx-reg-form-heading {
+  padding-bottom: 20px; }
+
+[data-type='wholesalex/forms'] .wholesalex-fields-wrapper, .wp-block-wholesalex-forms.wholesalex-form .wholesalex-fields-wrapper, .wsx-form-wrapper_frontend .wholesalex-fields-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 25px; }
+
+[data-type='wholesalex/forms'] .wholesalex-form-wrapper, [data-type='wholesalex/forms'].wholesalex-form-wrapper, .wp-block-wholesalex-forms.wholesalex-form .wholesalex-form-wrapper, .wp-block-wholesalex-forms.wholesalex-form.wholesalex-form-wrapper, .wsx-form-wrapper_frontend .wholesalex-form-wrapper, .wsx-form-wrapper_frontend.wholesalex-form-wrapper {
+  overflow: hidden; }
+
+[data-type='wholesalex/forms'] .wholesalex-registration-form .wholesalex-fields-wrapper, .wp-block-wholesalex-forms.wholesalex-form .wholesalex-fields-wrapper, .wsx-form-wrapper_frontend .wholesalex-fields-wrapper {
+  margin-top: 20px !important; }
+
+.wholesalex-form-preview-block-placeholder {
+  flex-direction: column;
+  display: flex !important;
+  justify-content: flex-start;
+  align-items: center; }
+
+@media only screen and (max-width: 1100px) {
+  .wholesalex-form-wrapper:not(.wsx-form-wrapper_frontend) {
+    flex-direction: column;
+    align-items: center; } }
+
+@media only screen and (max-width: 991px) {
+  .wsx-form-wrapper_frontend.wholesalex-form-wrapper {
+    flex-direction: column;
+    align-items: center; } }
+
+@media only screen and (max-width: 768px) {
+  .wholesalex-form-wrapper {
+    display: block; } }
+
+.wsx-reg-form-row.double-column {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px; }
+  .wsx-reg-form-row.double-column > div {
+    flex: 1; }
+
+.wholesalex_circular_loading__wrapper {
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 0;
+  transition: opacity 0.3s;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 9999999;
+  cursor: wait;
+  height: 100vh;
+  top: 0;
+  position: fixed !important; }
+
+.wholesalex_loading_spinner {
+  width: 100%;
+  text-align: center;
+  margin-top: -21px;
+  position: absolute !important;
+  top: 50% !important;
+  top: 50% !important; }
+
+.wholesalex_circular_loading_icon {
+  stroke-width: 2;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 90, 150;
+  stroke: var(--wholesalex-primary-color);
+  stroke-linecap: round;
+  animation: wholesalex_circular_loading 1.5s ease-in-out infinite; }
+
+@keyframes wholesalex_circular_loading {
+  0% {
+    stroke-dasharray: 1, 140;
+    stroke-dashoffset: 0; } }
+
+.wholesalex_loading_spinner .move_circular {
+  height: 42px;
+  width: 42px;
+  animation: circular_rotate 2s linear infinite; }
+
+@keyframes circular_rotate {
+  100% {
+    transform: rotate(1turn); } }
+
+.wsx_variation_1 .wsx-login-fields .wsx-field-warning .wsx-form-label:not(.wsx-clone-label),
+.wsx_variation_2 .wsx-login-fields .wsx-field-warning .wsx-form-label:not(.wsx-clone-label),
+.wsx_variation_3 .wsx-login-fields .wsx-field-warning .wsx-form-label:not(.wsx-clone-label),
+.wsx_variation_4 .wsx-login-fields .wsx-field-warning .wsx-form-label:not(.wsx-clone-label),
+.wsx_variation_5 .wsx-login-fields .wsx-field-warning .wsx-form-label:not(.wsx-clone-label),
+.wsx_variation_7 .wsx-login-fields .wsx-field-warning .wsx-form-label:not(.wsx-clone-label),
+.wsx_variation_8 .wsx-login-fields .wsx-field-warning .wsx-form-label:not(.wsx-clone-label) {
+  color: var(--wsx-login-form-label-color-warning) !important; }
+
+.wsx_variation_1 .wsx-login-fields .wsx-form-field:focus-within .wsx-form-label:not(.wsx-clone-label),
+.wsx_variation_2 .wsx-login-fields .wsx-form-field:focus-within .wsx-form-label:not(.wsx-clone-label),
+.wsx_variation_3 .wsx-login-fields .wsx-form-field:focus-within .wsx-form-label:not(.wsx-clone-label),
+.wsx_variation_4 .wsx-login-fields .wsx-form-field:focus-within .wsx-form-label:not(.wsx-clone-label),
+.wsx_variation_5 .wsx-login-fields .wsx-form-field:focus-within .wsx-form-label:not(.wsx-clone-label),
+.wsx_variation_7 .wsx-login-fields .wsx-form-field:focus-within .wsx-form-label:not(.wsx-clone-label),
+.wsx_variation_8 .wsx-login-fields .wsx-form-field:focus-within .wsx-form-label:not(.wsx-clone-label) {
+  color: var(--wsx-login-form-label-color-active) !important; }
+
+.wsx_variation_1 .wsx-reg-fields .wsx-field-warning .wsx-form-label:not(.wsx-clone-label),
+.wsx_variation_2 .wsx-reg-fields .wsx-field-warning .wsx-form-label:not(.wsx-clone-label),
+.wsx_variation_3 .wsx-reg-fields .wsx-field-warning .wsx-form-label:not(.wsx-clone-label),
+.wsx_variation_4 .wsx-reg-fields .wsx-field-warning .wsx-form-label:not(.wsx-clone-label),
+.wsx_variation_5 .wsx-reg-fields .wsx-field-warning .wsx-form-label:not(.wsx-clone-label),
+.wsx_variation_7 .wsx-reg-fields .wsx-field-warning .wsx-form-label:not(.wsx-clone-label),
+.wsx_variation_8 .wsx-reg-fields .wsx-field-warning .wsx-form-label:not(.wsx-clone-label) {
+  color: var(--wsx-form-label-color-warning) !important; }
+
+.wsx_variation_1 .wsx-reg-fields .wsx-form-field:focus-within .wsx-form-label:not(.wsx-clone-label),
+.wsx_variation_2 .wsx-reg-fields .wsx-form-field:focus-within .wsx-form-label:not(.wsx-clone-label),
+.wsx_variation_3 .wsx-reg-fields .wsx-form-field:focus-within .wsx-form-label:not(.wsx-clone-label),
+.wsx_variation_4 .wsx-reg-fields .wsx-form-field:focus-within .wsx-form-label:not(.wsx-clone-label),
+.wsx_variation_5 .wsx-reg-fields .wsx-form-field:focus-within .wsx-form-label:not(.wsx-clone-label),
+.wsx_variation_7 .wsx-reg-fields .wsx-form-field:focus-within .wsx-form-label:not(.wsx-clone-label),
+.wsx_variation_8 .wsx-reg-fields .wsx-form-field:focus-within .wsx-form-label:not(.wsx-clone-label) {
+  color: var(--wsx-form-label-color-active) !important; }
+
+.wsx_variation_6 .wsx-login-fields .wsx-field-warning .wsx-form-label:not(.wsx-clone-label) {
+  color: var(--wsx-login-form-label-color-warning) !important; }
+
+.wsx_variation_6 .wsx-login-fields .wsx-reg-form-row:focus-within .wsx-form-label:not(.wsx-clone-label), .wsx_variation_6 .wsx-login-fields .wsx-field:focus-within .wsx-form-label:not(.wsx-clone-label), .wsx_variation_6 .wsx-login-fields .wsx-form-field:focus-within .wsx-form-label:not(.wsx-clone-label) {
+  color: var(--wsx-login-form-label-color-active) !important; }
+
+.wsx_variation_6 .wsx-reg-fields .wsx-field-warning .wsx-form-label:not(.wsx-clone-label) {
+  color: var(--wsx-form-label-color-warning) !important; }
+
+.wsx_variation_6 .wsx-reg-fields .wsx-reg-form-row:focus-within .wsx-form-label:not(.wsx-clone-label), .wsx_variation_6 .wsx-reg-fields .wsx-field:focus-within .wsx-form-label:not(.wsx-clone-label), .wsx_variation_6 .wsx-reg-fields .wsx-form-field:focus-within .wsx-form-label:not(.wsx-clone-label) {
+  color: var(--wsx-form-label-color-active) !important; }

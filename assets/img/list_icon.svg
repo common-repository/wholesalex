@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+    <g data-name="Group 3974">
+        <g data-name="Rectangle 2642" style="fill:#fff;stroke:#6c6cff">
+            <rect width="18" height="18" rx="9" style="stroke:none"/>
+            <rect x=".5" y=".5" width="17" height="17" rx="8.5" style="fill:none"/>
+        </g>
+        <g data-name="Rectangle 2643" transform="translate(4 4)" style="fill:#6c6cff;stroke:#e0e0ff;stroke-width:1.5px">
+            <rect width="10" height="10" rx="5" style="stroke:none"/>
+            <rect x=".75" y=".75" width="8.5" height="8.5" rx="4.25" style="fill:none"/>
+        </g>
+    </g>
+</svg>
